@@ -1,0 +1,406 @@
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    display: flex;
+    padding-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-top {
+  background: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+  height: 600px;
+}
+
+.container-back{
+  background-color: #131519;
+  height: 600px;
+}
+
+.navbar-brand{
+  display: block;
+  margin-left: 90px;
+}
+
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+  align-items: center;
+  height: 120px;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+.nav-item{
+  font-size: 15px;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.justify-content-end{
+  margin-right: 90px;
+}
+
+.bg-navbar{
+    background: linear-gradient(90deg, #766dff 0%, #88f3ff 100%);
+}
+
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+.card{
+  display: block;
+  margin: 180px;
+  height: 100px;
+  margin-top: 0px;
+  border-radius: .50rem;
+}
+
+.row-home-banner{
+  padding-top: 80px;
+}
+
+.row-margin{
+  margin: 0px;
+}
+
+.card-body{
+  padding: 5px;
+  margin: -10px;
+  margin-top: -80px;
+}
+
+.img-main{
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  height: 720px;
+  width: 100%;
+  margin: auto;
+}
+
+.img-cir{
+  width: 60px;
+  height: 60px;
+  padding: 1px;
+}
+
+.img-pro{
+    width:100%;
+    height:200px;
+}
+
+.hello{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px
+}
+
+.main-name{
+  font-family: 'Merienda One', cursive;
+}
+
+.main-para{
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+}
+
+.row-about{
+  margin-top: 320px;
+}
+
+.col-about{
+  float: left;
+  margin-left: 55px;
+}
+
+.ul-list{
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.ul-social-icon{
+  display: block;
+  margin: auto;
+  padding-left: 0px;
+	list-style: none;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.ul-social-icon li{
+  display: inline;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+.about-banner{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.col-icon{
+  text-align: right;
+}
+
+.card-content{
+  -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.43);
+  box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.43);
+}
+
+.container-myself{
+  background-color: #f1f1f1;
+}
+
+.head{
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  letter-spacing: 3px;
+  height: 20px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.head-Institute{
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.para-Institute{
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.head-float{
+  float: right;
+  font-size: 15px;
+}
+
+.work{
+  color: #131519;
+  display: block;
+  font-weight: 600;
+  letter-spacing: 3px;
+  height: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.para-work{
+    text-align: center;
+}
+
+
+div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.15),
+        0 2px 3px 0 rgba(0,0,0,0.10);
+    border-radius: 7px;
+}
+
+div.icon {
+    width: 100%;
+}
+
+.footery{
+  background-color: #1f1f1f;
+  height: 200px;
+}
+
+.icon-pack{
+  color: #fff;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #131519;
+  color: white;
+}
+
+.fa-twitter {
+  background: #131519;
+  color: white;
+}
+
+.fa-instagram {
+  background: #131519;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #131519;
+  color: white;
+}
+
+.footer-name{
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #fff;
+  padding-top: 15px;
+  display: block;
+  margin: auto;
+}
+
+/*############## Mobile #################*/
+@media screen and (max-width: 680px) {
+
+
+  .img-main{
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    height: 760px;
+    width: 410px;
+    margin: auto;
+  }
+
+  .col-6,
+  .col-4,
+  .col-7,
+  .col-5 {
+      width: 100%;
+      margin: 0;
+  }
+
+  div.box {
+      padding: 5px;
+      display: block;
+  }
+
+  .img-pro{
+      width:100%;
+      height:100px;
+  }
+
+}
+    /* ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    article p {
+        font-size: 20px;
+    } */
+
+
+
+    /* div.mobilefooter {
+        width: 50%;
+        display: block;
+    }
+
+    div.box {
+        padding: 5px;
+        display: block;
+    }
+
+    div.deviceIcon img{
+        width: 90%;
+    }
+
+    div.leftside-col,
+    div.rightside-col {
+        margin: 15px;
+    }
+
+    input[type="text"] {
+        width: 350px;
+
+    }
+
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+
+    }
+}
+ */
