@@ -1,0 +1,27 @@
+{
+  "name": "veerbhadrasolanki.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veerbhadrasolanki/veerbhadrasolanki.github.io.git"
+  },
+  "keywords": [
+    "veer",
+    "bhadra",
+    "solanki"
+  ],
+  "author": "veerbhadrasolanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veerbhadrasolanki/veerbhadrasolanki.github.io/issues"
+  },
+  "homepage": "https://github.com/veerbhadrasolanki/veerbhadrasolanki.github.io#readme",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
+}
